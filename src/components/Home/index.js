@@ -11,9 +11,9 @@ const Home = () => (
         Millions of people are searching for jobs, salary information, company
         reviews. Find the job that fits your abilities and potential.
       </p>
-      <button type="button">
-        <Link to="/jobs">Find Jobs</Link>
-      </button>
+      <Link to="/jobs">
+        <button type="button">Find Jobs</button>
+      </Link>
     </div>
   </>
 )

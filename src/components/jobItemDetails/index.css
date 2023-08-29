@@ -1,0 +1,22 @@
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.horizontal-space {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.job-card {
+  list-style-type: none;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.horizontal-line {
+  border: 1px solid grey;
+}
